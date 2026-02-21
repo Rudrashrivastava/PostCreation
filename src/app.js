@@ -1,6 +1,6 @@
 const express=require('express');
-const authRouter=require("../src/routes/auth.routes");
-const postRouter=require("../src/routes/post.routes")
+const authRouter=require("./routes/auth.routes");
+const postRouter=require("./routes/post.routes")
 const cookieparser=require("cookie-parser");
 const cors=require('cors');
 
